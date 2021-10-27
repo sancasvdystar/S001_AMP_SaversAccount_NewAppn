@@ -1,0 +1,4 @@
+P_address,P_Unitno,P_StreetNo,P_StreetName,P_StreetType,P_suburb,P_postcode,P_state
+Unit 3  40 Beamish Street CAMPSIE  NSW  2194,U 3,40,beamish,ST,campsie,2194,NSW
+42 Lyndhurst Court WATTLE GROVE NSW 2173,null,42,Lyndhurst,CT,Wattle Grove,2173,NSW
+Unit 2  30 Elizabeth Street ASHFIELD NSW 2131,U 2,30,elizabeth,ST,ashfield,2131,NSW
