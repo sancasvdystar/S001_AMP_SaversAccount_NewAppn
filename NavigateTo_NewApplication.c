@@ -144,44 +144,7 @@ NavigateTo_NewApplication()
 		LAST);
 
 
-	web_custom_request("usersession", 
-		"URL=https://secure.{P_Host}/services/secure/ddc/1.0.0/usersession", 
-		"Method=GET", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=https://secure.{P_Host}/ddc/public/ui/saver-account/", 
-		"Snapshot=t47.inf", 
-		"Mode=HTML", 
-		LAST);
-
 	
-	web_custom_request("usersession_2", 
-		"URL=https://secure.{P_Host}/services/secure/ddc/1.0.0/usersession", 
-		"Method=GET", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=text/html", 
-		"Referer=https://secure.{P_Host}/ddc/public/ui/saver-account/", 
-		"Snapshot=t48.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=https://www.{P_Host}/content/dam/amp/digitalhub/common/images/systems/ddc/amp-blue.png", "Referer=https://secure.{P_Host}/", ENDITEM, 
-		LAST);
-
-
-	web_custom_request("countries", 
-		"URL=https://secure.{P_Host}/ddc/public/api/refdata/countries", 
-		"Method=GET", 
-		"TargetFrame=", 
-		"Resource=0", 
-		"RecContentType=application/json", 
-		"Referer=https://secure.{P_Host}/ddc/public/ui/saver-account/", 
-		"Snapshot=t49.inf", 
-		"Mode=HTML", 
-		EXTRARES, 
-		"Url=https://www.googleadservices.com/pagead/conversion_async.js", "Referer=https://secure.{P_Host}/", ENDITEM, 
-		LAST);
 
 	lr_end_transaction("S001_T005_AMPSavAcc_OpenAnAccount", LR_AUTO);
 
